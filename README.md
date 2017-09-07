@@ -1,5 +1,7 @@
 # open-public-media
 
+A list of open source projects in the public media space.
+
 **Media Manager API**
 * [mm_api_notify](#mm_api_notify)
 * [mm_client](#mm_client)
@@ -7,7 +9,8 @@
 **ProTrack**
 * [protrack-lambda](#protrack-lambda)
 
----
+# Projects
+
 ### [mm_api_notify](https://github.com/twincitiespublictelevision/mm_api_notify)
 A service for emitting notifications about changes in the [PBS Media Manager](https://docs.pbs.org/display/MM) system.
 
