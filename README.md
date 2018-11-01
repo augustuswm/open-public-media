@@ -6,8 +6,14 @@ A list of open source projects in the public media space.
 * [mm_api_notify](#mm_api_notify)
 * [mm_client](#mm_client)
 
-**ProTrack**
-* [protrack-lambda](#protrack-lambda)
+**MVault API**
+* [libmvault](#libmvault)
+
+**PBS Accounts API**
+* [libpbsauth](#libpbsauth)
+
+**PBS Partner Player**
+* [pbs-partner](#pbs-partner)
 
 # Projects
 
@@ -29,9 +35,27 @@ The mm_client crate is a very small library for communicating with the [PBS Medi
 
 ---
 
-### [protrack-lambda](https://github.com/twincitiespublictelevision/protrack-lambda)
-An schedule API implementation that parses and exposes ProTrack schedule data based on an XML input. Built to run on AWS Lamba via the [Serverless Framework](https://serverless.com/).
+### [libmvault](https://github.com/twincitiespublictelevision/libmvault)
+Classes for structured [MVault API](https://docs.pbs.org/display/MV) data.
 
 | License(s)  | Language(s) | Owner |
 | ----------- | ----------- | ----- |
-| [Apache-2.0](https://github.com/twincitiespublictelevision/protrack-lambda/blob/master/LICENSE) | [Node.js](https://nodejs.org/en/) | [twincitiespublictelevision](https://github.com/twincitiespublictelevision) |
+| [Apache-2.0](https://github.com/twincitiespublictelevision/libmvault/blob/master/LICENSE) | [PHP](https://secure.php.net/) | [twincitiespublictelevision](https://github.com/twincitiespublictelevision) |
+
+---
+
+### [libpbsauth](https://github.com/twincitiespublictelevision/libpbsauth)
+Classes for structured [PBS Accounts API](https://docs.pbs.org/display/uua) data.
+
+| License(s)  | Language(s) | Owner |
+| ----------- | ----------- | ----- |
+| [Apache-2.0](https://github.com/twincitiespublictelevision/libpbsauth/blob/master/LICENSE) | [PHP](https://secure.php.net/) | [twincitiespublictelevision](https://github.com/twincitiespublictelevision) |
+
+---
+
+### [pbs-partner](https://github.com/twincitiespublictelevision/pbs-partner)
+A library for interacting with an embedded PBS partner player.
+
+| License(s)  | Language(s) | Owner |
+| ----------- | ----------- | ----- |
+| [Apache-2.0](https://github.com/twincitiespublictelevision/pbs-partner/blob/master/LICENSE) | Javascript | [twincitiespublictelevision](https://github.com/twincitiespublictelevision) |
